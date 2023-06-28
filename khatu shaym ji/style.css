@@ -1,0 +1,230 @@
+*{margin: 0;
+padding: 0;}
+body{
+    background-color: rgb(230, 220, 230);
+}
+.header-nav{
+    background-color: burlywood;
+    height: 6.1vh;
+    text-align: center;
+    border-bottom:  3px solid saddlebrown;
+width: 100%;
+display: inline-block;
+z-index: 2;
+position: fixed;
+    
+}
+.header-nav .header-nav-link{
+    display: inline-block;
+color: black;
+margin-top: 10px;
+margin-right: 150px;
+text-decoration: none;
+
+}
+
+
+.section-1{
+    background-color: rgb(230, 220, 230);
+    height: 220px;
+    border-bottom: 3px solid saddlebrown;
+    /* margin-top: 60px; */
+    /* float: inline-end; */
+    position: relative;
+    top: 43px;
+}
+
+.section-1 .main-section-1-container .khatu-baba-img, .toran{
+   display: inline-block;
+   width: 240px;
+   height: 220px;
+}
+.jai-shree-shyam{
+display: inline-block;
+width: 934px;
+font-size: 50px;
+text-align: center;
+/* border-bottom: 2px solid burlywood; */
+position: relative;
+bottom: 80px;
+font-style: italic;
+font-family: sans-serif;
+}
+.section-2-video {
+    display: flex;
+    
+    overflow: auto;
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+    /* border-top: 2px solid black; */
+    /* float: inline-end; */
+    position: relative;
+    top: 200px;
+}
+
+.section2 a img{
+    width: 280px;
+     height: 220px;
+    
+}
+
+
+.section-2-video a img{
+margin-right: 10px;
+padding: 5px;
+background-color: lavender;
+border-radius: 16px;
+border: 2px solid black;
+
+}
+
+.section2 .container{
+    background-image: url(Creative-Craft-Vintage-Feather-Pen-Vintage-Carved-Stainless-Steel-Felt-Pen-Signature-Gift-Peacock-Feather-Pen.webp);
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 480px;
+    
+}
+
+.section2 .container p{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+    top: 43px;
+    
+}
+.section-3 .header-nav-link{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+color: black;
+font-size: 25px;
+/* color: black; */
+border: 3px solid rgb(96, 98, 91);
+/* width: 700px; */
+text-decoration: none;
+text-align: center;
+}
+.section-3{
+    background-color: lightgoldenrodyellow;
+/* text-decoration: underline; */
+/* color: red; */
+
+
+}
+ .section50m{
+    background-color: azure;
+
+    text-align: center;
+ }
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+
+    /* align-content: space-evenly; */
+flex-wrap: wrap;
+    width: 100%;
+    height: 320px;
+    background-color: azure;
+}
+.section5img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+.section60m{
+    background-color: lightslategrey;
+/* margin-top: 20px; */
+    text-align: center;
+}
+.section6{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 96.95%;
+    height: 100%;
+    height: 280px;
+    background-color: linen;
+    border: 22px solid azure;
+    /* border-radius: 20px; */
+    background-color: gray;
+    border-bottom: 7px solid pink;
+
+}
+.section6img{
+    width: 220px;
+    height: 150px;
+    border: 3px double lightslategrey;
+    margin-top: 90px;
+    border-radius: 5px;
+}
+.op p{
+position: relative;
+top: 80px;
+left: 3px;
+color: black;
+border: 1px solid black;
+text-align: center;
+}
+.section-7{ margin-left: 0px;
+    
+background-color: black;
+display: flex;
+border-radius: 20px;
+width: 50vw;
+position: relative;
+left: 340px;
+border-bottom: 5px solid green;
+border-right: 5px solid green;
+}
+.section-7 li{
+    
+    font-size:25px;
+    color: white;
+    position: relative;
+left: 220px;
+}
+.section-7 h3{
+color: white    ;
+position: relative;
+left: 130px;
+padding-bottom: 20px;
+text-decoration: underline;
+}
+.section-8{
+    background-color: lightgray;
+    /* display: inline-block; */
+    position: relative;
+    text-align: center;
+}
+.section-8 h2{
+    color: darkslateblue;
+}
+.section-8 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    /* display: inline-block; */
+}
+.section-9{
+    text-align: center;
+}
+.section-9 .aarti{
+    font-size: 40px;
+}
+.section-9 article {
+    font-size: 18px;
+    color: darkslategray;
+    border: 4px double black;
+}
+.section-9-bless{
+    color: darkorchid;
+    box-sizing: content-box;
+    border: 2px solid green;
+}
